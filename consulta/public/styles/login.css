@@ -95,11 +95,12 @@ button{
   text-align: center;
   margin-left: auto;
   display: block;
-  background-color: aliceblue;
+  background-color: rgb(43, 43, 43);
   border: 1px solid black;
   font-family: 'REM', sans-serif;
   font-size: 1rem;
   cursor: pointer;
+  color: white;
 }
 
 button:hover{
