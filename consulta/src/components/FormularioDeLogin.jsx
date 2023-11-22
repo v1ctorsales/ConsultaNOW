@@ -17,7 +17,7 @@ function FormularioDeLogin(){
                     <p id="CriarConta"><i class="fa-solid fa-user-plus"></i> Criar uma Conta</p>
                     <p id="EsqueciMinhaSenha"><i class="fa-solid fa-unlock-keyhole"></i> Esqueci Minha Senha</p>
                 </div>
-                <button id="loginButton"><i class="fa-solid fa-right-to-bracket"></i>Entrar</button>
+                <button id="loginButton"><i class="fa-solid fa-right-to-bracket"></i> Entrar</button>
                 </div>
         </div>               
         </div>
