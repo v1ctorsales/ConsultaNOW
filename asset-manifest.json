@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/ConsultaNOW/static/js/main.373388d1.js",
+    "main.js": "/ConsultaNOW/static/js/main.cd277cdd.js",
     "index.html": "/ConsultaNOW/index.html",
-    "main.373388d1.js.map": "/ConsultaNOW/static/js/main.373388d1.js.map"
+    "main.cd277cdd.js.map": "/ConsultaNOW/static/js/main.cd277cdd.js.map"
   },
   "entrypoints": [
-    "static/js/main.373388d1.js"
+    "static/js/main.cd277cdd.js"
   ]
 }
