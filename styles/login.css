@@ -39,7 +39,7 @@ h3{
 
 input{
   width: 99%;
-  height: 70%;
+  height: 25px;
   border-radius: 10px;
   border: 1px solid black;
   font-size: 16px;
@@ -55,9 +55,8 @@ label{
 
   padding: 5%;
   margin: 5% auto;
-  width: 400px;
-  height: 400px;
   width: 30%;
+  height: fit-content;
   display:flex;
   flex-direction: column;
   gap: 30px;
@@ -70,10 +69,17 @@ label{
   height: 100%;
 }
 
+.campoSmall{
+  width: 90%;
+}
+
+
+
 .campoFormularioFlex{
-  margin-top: 20px;
+  gap: 15px;
   display: inline-flex;
   height: 100%;
+  justify-content: space-around;
 }
 
 .campoFormulario i{
@@ -147,6 +153,5 @@ margin: 0;
   display: inline-flex;
   margin: auto;
 }
-
 
 

@@ -1,0 +1,43 @@
+.cardBody{
+    display: grid;
+    gap: 40px;
+}
+
+select{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.greenbutton{
+    width: fit-content;
+    display: block;
+    margin: auto;
+    background-color: #429b49;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  .greenbutton:hover{
+    background-color: #328138;
+    color: rgb(255, 255, 255);
+  }
+  
+  .cardConsulta{
+    padding: 5%;
+    margin: 5% auto;
+    width: 40%;
+    height: fit-content;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 15px;
+  }
