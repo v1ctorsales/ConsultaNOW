@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/ConsultaNOW/static/js/main.4c59cb04.js",
-    "index.html": "/ConsultaNOW/index.html",
-    "main.4c59cb04.js.map": "/ConsultaNOW/static/js/main.4c59cb04.js.map"
+    "main.js": "/ConsultaNOW/login/static/js/main.4c59cb04.js",
+    "index.html": "/ConsultaNOW/login/index.html",
+    "main.4c59cb04.js.map": "/ConsultaNOW/login/static/js/main.4c59cb04.js.map"
   },
   "entrypoints": [
     "static/js/main.4c59cb04.js"
