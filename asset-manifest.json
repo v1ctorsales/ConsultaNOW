@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.js": "/ConsultaNOW/static/js/main.cd277cdd.js",
+    "main.js": "/ConsultaNOW/static/js/main.f1c0e997.js",
+    "static/media/videokeep.mp4": "/ConsultaNOW/static/media/videokeep.5b5b32bbd6f96b608e35.mp4",
+    "static/media/especialista.png": "/ConsultaNOW/static/media/especialista.afbac627d936cc7593f9.png",
     "index.html": "/ConsultaNOW/index.html",
-    "main.cd277cdd.js.map": "/ConsultaNOW/static/js/main.cd277cdd.js.map"
+    "main.f1c0e997.js.map": "/ConsultaNOW/static/js/main.f1c0e997.js.map"
   },
   "entrypoints": [
-    "static/js/main.cd277cdd.js"
+    "static/js/main.f1c0e997.js"
   ]
 }

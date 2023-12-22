@@ -1,0 +1,73 @@
+h3{
+    display: inline;
+}
+.indexContainer{
+    background-color: white;
+    width: 40%;
+    height: 100vh;
+    z-index: 2;
+    display: grid;
+}
+.indexContainer h2{
+text-align: center;
+}
+video{
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+    filter: brightness(40%);
+}
+
+.backgroundHandler{
+    width: 100%;
+    height: 100%;
+}
+
+.botoesIndex{
+    gap: 40px;
+    height: 40px;
+    display: grid;
+
+}
+
+.botoesIndex .whitebutton{
+    margin: auto;
+}
+
+
+.faleComUmEspecialista{
+    width: 100%;
+display: block;
+margin: auto;
+text-align: center;
+}
+
+.faleComUmEspecialista .greenbutton {
+    height: 60%;
+    width: 90%;
+    display: inline-flex;
+    align-items: center; /* Centraliza verticalmente dentro do contêiner */
+    justify-content: center;
+}
+
+.greenbutton img {
+    align-self: flex-end; /* Alinha a imagem no final do contêiner */
+    max-height: 100%; /* Ajusta a altura máxima da imagem */
+    max-width: 100%; /* Ajusta a largura máxima da imagem */
+}
+
+.greenbutton h2 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0; /* Remove a margem padrão do h2 */
+}
+
+h1 span{
+    color: rgb(252, 251, 182);
+}
