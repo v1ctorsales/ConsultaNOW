@@ -1,18 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import FormularioDeLogin from './components/FormularioDeLogin';
-import Footer from './components/Footer';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Index from './pages/index';
 import Login from './pages/login';
 import Consultar from './pages/consultar';
 
-function App() {
+export default function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/login" component={Login} />
-        <Route path="/consultar" component={Consultar} />
-      </Switch>
-    </Router>
-  );
+  <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<Index />} />
+        <Route path="login" element={<Login />} />
+        <Route path="consultar" element={<Consultar />} />
+    </Routes>
+  </BrowserRouter>
+);
 }
-export default App;
