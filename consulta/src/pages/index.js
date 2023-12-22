@@ -17,8 +17,8 @@ return(
             <div className="imgHolder"><img src={logo} alt="" srcSet="" /><h1>KEEP Medicina</h1></div>
             <div className='botoesIndex'>
             <h2 >Como podemos te ajudar hoje?</h2>
-            <Link to="/login"><button className="whitebutton"> <i class="fa-solid fa-right-to-bracket"></i><h3> Acesso dos associados</h3></button> </Link>
-            <Link to="/consultar"><button className="whitebutton"><i class="fa-solid fa-calendar-check"></i><h3> Marcar uma consulta</h3></button> </Link>
+            <Link to="./login"><button className="whitebutton"> <i class="fa-solid fa-right-to-bracket"></i><h3> Acesso de associados</h3></button> </Link>
+            <Link to="./consultar"><button className="whitebutton"><i class="fa-solid fa-calendar-check"></i><h3> Marcar uma consulta</h3></button> </Link>
             </div>
             <div className='faleComUmEspecialista'>
                 <button className="greenbutton">
